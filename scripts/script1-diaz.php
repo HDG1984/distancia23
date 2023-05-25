@@ -6,7 +6,7 @@
  * Permite realizar operaciones de suma y multiplicación de números.
  *
  * @package Scripts
- * @version 1.0
+ * @version 1.1
  * @author Helio Díaz Gutiérrez
  */
 
@@ -19,7 +19,7 @@
  * @param int $num1 El primer número a sumar.
  * @param int $num2 El segundo número a sumar.
  * @return int La suma de los dos números.
- * @since 1.0
+ * @since 1.1
  */
 function sumar($num1, $num2) {
     return $num1 + $num2;

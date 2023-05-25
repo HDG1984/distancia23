@@ -6,7 +6,7 @@
  * Permite obtener y establecer el nombre y la edad del usuario.
  *
  * @package Scripts
- * @version 1.0
+ * @version 1.1
  * @author Helio Díaz Gutiérrez
  */
 class Usuario {
@@ -20,7 +20,7 @@ class Usuario {
      *
      * @param string $nombre El nombre del usuario.
      * @param int $edad La edad del usuario.
-     * @since 1.0
+     * @since 1.1
      */
     public function __construct($nombre, $edad) {
         $this->nombre = $nombre;
